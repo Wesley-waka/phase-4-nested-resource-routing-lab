@@ -5,4 +5,8 @@ class UsersController < ApplicationController
     render json: user, include: :items
   end
 
+  # def create 
+  #   user = User.find_by(id: params[:id])
+    
+
 end
